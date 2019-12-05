@@ -1,11 +1,13 @@
-# ¿Quién soy?
 <html>
     <head>
-        <title>Luis Alberto Vera Garcia</title> 
+        <title>Luis Alberto Vera Garcia </title> 
     </head>
-    <br />
     <body>
-    <h1>Pequeña autobiografia</h1>
-    <h2>Soy Luis Vera tengo 18 años soy originario de la ciudd de Guayaquil y actualmente estoy cursando la carrera de Ing. en Software en la Universidad de Guayaquil</h2>
+        <h1>Pequeña autobiografia</h1>
+        <h2>Me llamo Luis Vera tengo 18 años soy originario de la ciudad de Guayaquil y actualmente estoy cursando la carrera de Ing. en Software en la Universidad de Guayaquil</h2>
+        <h1>Experiencia en programación</h1>
+        <h2>Mi experiencia en el mundo de la progracion es muy reduciada debido a que me gradue con un bachillerato en ciencias naturales y es la primera ocación en la que estoy desarrollando software</h2>
+        <h1>Competencias</h1>
+        <h2> </h2>
     </body>
 </html>
