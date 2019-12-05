@@ -10,6 +10,7 @@
         <h1>Competencias</h1>
         <h2>lenguaje C : Básico </h2>
         <h2>Html: Amateur </h2>
-        <h1>
+        <h1>Introducción a la Ingenieria en Software </h1>
+        <h2>Docente : Ing. Miguel Angel Botto Tobar</h2>
     </body>
 </html>
