@@ -1,35 +1,306 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Luis Alberto Vera Garcia </title> 
-    </head>    
-  <body class="page">
-    <img src="Escritorio/AliasdeLuisVera.jpg" alt= "Alias de LuisVera"/>
-    <h1>Pequeña autobiografia</h1>
-    <p>Me llamo Luis Vera tengo 18 años soy originario de la ciudad de Guayaquil y actualmente estoy cursando la carrera de Ing. en Software en la Universidad de Guayaquil</p>
-    <br/><br/>
-    <h1>Experiencia en programación</h1>
-    <p>Mi experiencia en el mundo de la progracion es muy reduciada debido a que me gradue con un bachillerato en ciencias naturales y es la primera ocación en la que estoy desarrollando software</p>
-    <br/><br/>
-    <h1>Competencias</h1>
-    <p>lenguaje C : Básico </p>
-    <p>Html: Amateur </p>
-    <br/><br/>
-    <h1>Introducción a la Ingenieria en Software </h1>
-    <p>Docente : Ing. Miguel Angel Botto Tobar</p>
-    <br/><br/> 
-    <h1>Material de clases</h1>
-    <br/>
-    <h1>Syllabus de la asignatura</h1>
-        <a href="https://drive.google.com/drive/u/0/folders/1r0TBmRIBcTb9hiwkQFeUDEUFevOpbePW ">Syllabus de la materia</a>
-    <h1>Clases</h1>
-    <h2>Unidad#1</h2>
-    <a href="https://drive.google.com/drive/u/0/folders/1rhaRyYb_dkq1LD7y6k1-nZ7_zBM8U7cT">Unidad#1</a>
-    <h1>Unidad#2</h1>
-    <a href="https://drive.google.com/drive/u/0/folders/14A2d71PVz4XwUJKmo-m66Y1ZOpED47pY">Unidad#2</a>
-    <h1>Banco de preguntas#1</h1>
-    <a href="https://drive.google.com/drive/u/0/folders/12QZt4uMBQmEs4dVJhkBA8KheoabchJ_L">Bnaco de Preguntas referente a la Unidad#1</a>
-    <h1>Banco de preguntas#2</h1>
-    <a href="https://drive.google.com/drive/u/0/folders/1_T2iHnXiX59x_Zi91uKVY7Vicd66sjbl">Banco de preguntas referente a la Unidad#2</a>
-  </body>
+<html lang="en">
+
+<head>
+    <title>Finex - Multipurpose Business and Corporate HTML5 Template</title>
+    <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!--[if IE]>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+        <![endif]-->
+        <meta name="keywords" content="HTML5 Template" />
+        <meta name="description" content="Finex - Multipurpose Business and Corporate HTML5 Template" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+      <!-- Include All CSS -->
+      <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+      <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
+      <link rel="stylesheet" type="text/css" href="css/owl.carousel.css" />
+      <link rel="stylesheet" type="text/css" href="css/owl.theme.css" />
+      <link rel="stylesheet" type="text/css" href="css/magnific-popup.css" />
+      <link rel="stylesheet" type="text/css" href="css/preset.css" />
+      <link rel="stylesheet" type="text/css" href="css/animate.css" />
+      <link rel="stylesheet" type="text/css" href="css/style.css" />
+      <link rel="stylesheet" type="text/css" href="css/responsive.css" />
+      <!-- End Include All CSS -->
+      <!-- Favicon Icon -->
+      <link rel="icon" type="image/png" href="images/favicon.png">
+      <!-- Favicon Icon -->
+	    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+   </head>
+<body>
+    <!-- ========= preloader ========== -->
+    <div class="preloader">
+        <img src="images/loader.gif" alt="">
+    </div>
+    <!-- ========= End preloader ========== -->
+
+
+    <!--Header Middle End-->
+    <!--Header Start-->
+    <header class="header">
+        <div class="menu-spacer"></div>
+        <div class="container">
+            <div class="row">
+			                <div class="col-lg-3 col-sm-3">
+                   <div class="logo">
+                        <a href="index.html">
+                           <img src="images/logo.png" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-9 col-sm-9">
+                    <nav class="mainnav">
+                        <div class="logoMobile hidden-lg hidden-sm hidden-md">
+                            <a href="index.html">
+                                <img alt="" src="images/logo2.png">
+                            </a>
+                        </div>
+                        <div class="mobileMenu">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <ul>
+                            <li class="has-menu-items active"><a href="index.html">home</a></li>
+                            <li><a href="about.html">about</a></li>
+                            <li class="has-menu-items"><a class="drop_menu" href="#">our services</a>
+                                <ul class="sub-menu">
+                                    <li><a href="services.html">Services Page</a></li>
+                                    <li><a href="services_details.html">Services Details</a></li>
+                                </ul>
+                            </li> 
+                            <li class="has-menu-items"><a class="drop_menu" href="#">projects</a>
+                                <ul class="sub-menu">
+                                    <li><a href="project.html">All Project</a></li>
+                                    <li><a href="project_single.html">Single Project</a></li>
+                                </ul>
+                            </li>
+                            <li class="has-menu-items"><a class="drop_menu" href="#">blogs </a>
+                                <ul class="sub-menu">
+                                    <li><a href="blog_rightsidebar.html">Blog Right Sidebar</a></li>
+                                    <li><a href="blog_leftsidebar.html">Blog Left Sidebar</a></li>
+                                    <li><a href="blog_detailsright.html">Blog Details Right</a></li>
+                                    <li><a href="blog_detailsleft.html">Blog Details Left</a></li>
+                                </ul>
+                            </li>
+                            <li class="has-menu-items"><a class="drop_menu" href="#">Page</a>
+                                <ul class="sub-menu">
+                                    <li><a href="404.html">404 Page</a></li>
+                                    <li><a href="about.html">About Page</a></li>
+                                    <li><a href="contact.html">Contact Page</a></li>
+
+                                </ul>
+                            </li>
+
+                            <li><a href="contact.html">Contact Us</a></li>
+
+                        </ul>
+                    </nav>
+                </div>
+
+            </div>
+        </div>
+    </header>
+    <!--Header End-->
+		      <!--Breadcrumb Start-->
+			  
+        <section class="breadcrumbSec" style="background-image:url('images/breadcum/3.jpg');">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 text-center breadsec">
+                        <h1 class="breadTitle">ABOUT COMPANY</h1>
+                        <div class="breadCumpNav">
+                            <a href="index.html">Home</a>
+                            <i class="fa fa-angle-right"></i>
+                            <a href="#">about</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Breadcrumb End-->
+		 <!-- About us -->
+     <section id="about_sec" class="commonSection aboutCont">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="aboutcontain">
+							<div class="themeHeadding black">
+								 <h2>We Are Finex</h2>
+							</div>
+                           
+                               <p>
+                                Here are many variations of passages of Contrary to popular belief available, but the majority have suffered 
+                                   alteration in some form,by injected humour.
+								
+                            </p>
+                            <p>
+                                But I must explain to you how all this mistaken pleasure and praising pain was born
+								and I will give you a complete account of the system,
+								the master-builder of human happiness.
+                            </p>
+							<a href="#" class="themeBtn">Read More</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="aboutimg">
+                            <img src="images/about/about.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+		  <!-- About us -->
+		 <!--Call to Action Start-->
+        <section class="commonSection promo_sec">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-10 col-lg-offset-1 noPadding text-center">
+                        <div class="themeHeadding">
+                            <h2>We are trusted partner</h2>
+                            <p>
+                                Sed ultrices porta cursus. Aenean nec sagittis augue. Integer fringilla nunc non leo blandit efficitur.
+                                Aenean vel sodales felis. Nunc ac dignissim nunc.
+                                Aenean vel pellentesque lectus. Fusce nibh orci, porttitor nec odio sit amet. 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Call to Action End-->
+		<section class="commonSection bgwhite">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center testcarHeadding">
+                    <div class="themeHeadding black">
+                        <h2>Our Team</h2>
+                    </div>
+                </div>
+            </div>
+
+             <div class="col-md-3 col-sm-6 col-xs-12 team_sect">
+                <div class="teamImg">
+                    <figure>
+                        <img src="images/team/team2.jpg" alt="team_img" />
+                        <p class="team-social">
+                            <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                            <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                            <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                            <a href="mailto:'info@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+                        </p>
+                    </figure>
+                </div>
+                <div class="team-info text-center">
+                    <h4 class="title">Isabella Dowson</h4>
+                    <p class="team_designation">Designer</p>
+                </div>
+            </div>
+           <div class="col-md-3 col-sm-6 col-xs-12 team_sect">
+                <div class="teamImg">
+                    <figure>
+                        <img src="images/team/team3.jpg" alt="team_img" />
+                        <p class="team-social">
+                            <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                            <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                            <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                            <a href="mailto:'info@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+                        </p>
+                    </figure>
+                </div>
+                <div class="team-info text-center">
+                    <h4 class="title">Isabella Dowson</h4>
+                    <p class="team_designation">Designer</p>
+                </div>
+            </div>
+          <div class="col-md-3 col-sm-6 col-xs-12 team_sect">
+                <div class="teamImg">
+                    <figure>
+                        <img src="images/team/team2.jpg" alt="team_img" />
+                        <p class="team-social">
+                            <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                            <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                            <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                            <a href="mailto:'info@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+                        </p>
+                    </figure>
+                </div>
+                <div class="team-info text-center">
+                    <h4 class="title">Isabella Dowson</h4>
+                    <p class="team_designation">Designer</p>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12 team_sect">
+                <div class="teamImg">
+                    <figure>
+                        <img src="images/team/team4.jpg" alt="team_img" />
+                        <p class="team-social">
+                            <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                            <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                            <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                            <a href="mailto:'info@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+                        </p>
+                    </figure>
+                </div>
+                <div class="team-info text-center">
+                    <h4 class="title">Isabella Dowson</h4>
+                    <p class="team_designation">Designer</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!--Team Section End-->
+  
+              <!--Footer Start-->
+          <footer>
+         <div id="footer" >
+            <div class="container">
+               <div class="col-md-12 col-xs-12 ">
+                  <div class="inside">
+                     <div class="contact-info">
+                        <div class="col-md-4 col-xs-12 m-margin">
+                           <h4>Telephone</h4>
+                           <p><a href="tel:07938857242">123 789654 564</a></p>
+                        </div>
+                        <div class="col-md-4 col-xs-12 m-margin">
+                           <h4>Email</h4>
+                           <p><a href="mailto:info@example.com">info@example.com</a></p>
+                        </div>
+                        <div class="col-md-4 col-xs-12 m-margin">
+                           <h4>Address</h4>
+                           <p>20 Long Beach, United States</p>
+                        </div>
+                     </div>
+                     <div class="social col-md-12">
+                        <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="bottom-footer">
+               <p>© 2018 <span class="theme_color">Finex.</span> All Rights Reserved.</p>
+            </div>
+         </div>
+      </footer>
+      <!--footer End-->
+      <a href="#" id="backToTop"><i class="fa fa-angle-up"></i></a>
+      <!-- Include All JS -->
+      <script type="text/javascript" src="js/jquery.js"></script>
+      <script type="text/javascript"  src="js/bootstrap.min.js"></script>
+      <script type="text/javascript"  src="js/owl.carousel.js"></script>
+      <script  type="text/javascript" src="js/jquery.magnific-popup.js"></script>
+      <script type="text/javascript" src="js/mixer.js"></script>
+      <script  type="text/javascript" src="js/theme.js"></script>
+	  <script  type="text/javascript" src="js/smoothscroll.js"></script>
+   </body>
 </html>
